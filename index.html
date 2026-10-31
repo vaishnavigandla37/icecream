@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frosty Bliss</title>
+    <meta name="description" content="A colorful ice cream shop landing page" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">❄️</span>
+          <span>Frosty Bliss</span>
+        </div>
+        <nav class="nav">
+          <a href="#flavors">Flavors</a>
+          <a href="#treats">Treats</a>
+          <a href="#about">About</a>
+        </nav>
+        <button class="cta-button">Order now</button>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Freshly churned daily</p>
+            <h1>Sweet moments, one scoop at a time.</h1>
+            <p class="subtext">
+              Discover handcrafted flavors, creamy textures, and playful toppings made for warm afternoons and happy cravings.
+            </p>
+            <div class="hero-actions">
+              <button class="cta-button primary">Build a sundae</button>
+              <button class="secondary-button">View menu</button>
+            </div>
+            <ul class="stats" aria-label="Ice cream shop stats">
+              <li><strong>1200+</strong><span>Scoops served</span></li>
+              <li><strong>18</strong><span>Signature flavors</span></li>
+              <li><strong>4.9/5</strong><span>Customer love</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Ice cream illustration">
+            <div class="cone cone-back"></div>
+            <div class="scoop scoop-pink"></div>
+            <div class="scoop scoop-blue"></div>
+            <div class="scoop scoop-yellow"></div>
+            <div class="sprinkles"></div>
+          </div>
+        </section>
+
+        <section id="flavors" class="menu-section">
+          <div class="section-heading">
+            <p class="eyebrow">Popular picks</p>
+            <h2>Fan-favorite flavors</h2>
+          </div>
+          <div id="flavor-grid" class="flavor-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="treats" class="feature-panel">
+          <div class="feature-card">
+            <span>🍦</span>
+            <h3>Handcrafted batches</h3>
+            <p>Small-batch recipes with real fruit, premium dairy, and nostalgic ingredients.</p>
+          </div>
+          <div class="feature-card accent">
+            <span>🌞</span>
+            <h3>Made for sunny days</h3>
+            <p>Perfect for date nights, family outings, and post-dinner cravings.</p>
+          </div>
+          <div class="feature-card">
+            <span>🎉</span>
+            <h3>Custom sundaes</h3>
+            <p>Pick your base, drizzles, toppings, and crunch for your ideal dessert.</p>
+          </div>
+        </section>
+
+        <section id="about" class="about-section">
+          <div class="about-copy">
+            <p class="eyebrow">Why people come back</p>
+            <h2>Made with joy, served with happiness.</h2>
+            <p>
+              At Frosty Bliss, every scoop is a celebration. We blend classic comfort with bright, modern flavors to create treats everyone can enjoy.
+            </p>
+          </div>
+          <div class="mini-card">
+            <p>Open daily</p>
+            <strong>11:00 AM – 10:00 PM</strong>
+            <button class="cta-button primary">Book a table</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

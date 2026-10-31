@@ -1,0 +1,30 @@
+# Frosty Bliss
+
+A simple ice cream shop landing page built with Vite.
+
+## Run locally
+
+```bash
+npm install
+npm run dev -- --host 0.0.0.0
+```
+
+Then open http://localhost:3000
+
+## Build for production
+
+```bash
+npm run build
+```
+
+## Preview production build
+
+```bash
+npm run preview -- --host 0.0.0.0
+```
+
+## Notes
+
+This app is intentionally lightweight and uses only Vite plus plain HTML, CSS, and JavaScript so it runs quickly and requires no extra framework setup.
+
+
